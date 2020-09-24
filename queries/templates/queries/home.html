@@ -1,0 +1,13 @@
+{% extends 'queries/base.html' %}
+
+{% block content %}
+<p> Awosame Web page </p>
+{% for object in a %}
+<p>{{object}}</p>
+
+{% endfor %}
+
+<h3>{{b.name}}</h3>
+<h3>{{b.tagline}}</h3>
+{% endblock content %}
+
